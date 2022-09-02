@@ -1,0 +1,21 @@
+*{margin:0px; box-sizing: border-box;}
+body{background-color: silver; font-family: arial;}
+h2{font-size: 30px; line-height:32px; margin-bottom: 0px;}
+.container{max-width:1250px; margin:0px auto;}
+
+.navbar{background-color: white; padding:15px  0px;}
+.navbar > .container{ display: flex; justify-content: space-between;}
+
+.navbar ul{list-style: none; display: flex;}
+.navbar ul li a{text-decoration: none; padding:12px 20px; display: block; color:black; font-weight:600;}
+/*-----------------------service-------------------------*/
+
+#service{padding:60px  0px; background-color: rgb(236, 230, 230);}
+.row{display: flex; flex-wrap: wrap;}
+.col-4{width:33.33%; padding:15px;}
+.card{background-color: white; }
+.card-body{padding:15px;}
+.card img{width:100%;}
+.card-body p{margin:15px 0px;}
+  
+
